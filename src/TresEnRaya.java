@@ -1,5 +1,7 @@
-
-//Autor: Mr. Steve
+/**
+@author : dsteve
+ Descripción: clase que lanza el juego
+*/
 
 public class TresEnRaya {
 

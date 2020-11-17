@@ -1,13 +1,19 @@
+/**
+ @author : dsteve
+ Descripción: clase que contiene los atributos de jugador
+ */
+
+
 public class Jugador {
 
     private String nombre;
     private int partidasGanadas;
-    private int partifasJugadas;
+    private int partidasJugadas;
 
     public Jugador(String nombre) {
         this.nombre = nombre;
-        this.partidasGanadas = 1;
-        this.partifasJugadas = 1;
+        this.partidasGanadas = 0;
+        this.partidasJugadas = 0;
     }
 
     public String getNombre() {
@@ -22,22 +28,30 @@ public class Jugador {
         return partidasGanadas;
     }
 
-    public int getPartifasJugadas() {
-        return partifasJugadas;
-    }
-
     public void setPartidasGanadas() {
         this.partidasGanadas++;
     }
 
-    public void setPartifasJugadas() {
-        this.partifasJugadas++;
+    public int getPartidasJugadas() {
+        return partidasJugadas;
+    }
+
+    public void setPartidasJugadas() {
+        this.partidasJugadas++;
     }
 
     @Override
     public String toString() {
-        return "nombre: " + nombre + "\n" +
-                "partidasGanadas: " + this.getPartidasGanadas() + "\n" +
-                "partifasJugadas: " + this.getPartifasJugadas() + "\n";
+        StringBuilder toret = new StringBuilder();
+        toret.append("Nombre: ");
+        toret.append(this.getNombre());
+        toret.append("\n");
+        toret.append("Partidas jugadas: ");
+        toret.append(this.getPartidasJugadas());
+        toret.append("\n");
+        toret.append("Partidas ganadas: ");
+        toret.append(this.getPartidasGanadas());
+
+        return toret.toString();
     }
 }

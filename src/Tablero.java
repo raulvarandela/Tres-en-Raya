@@ -1,4 +1,8 @@
-import java.util.InputMismatchException;
+/**
+ @author : dsteve
+ Descripción: clase que contiene toda la lógica de negocio del juego
+ */
+
 import java.util.Scanner;
 
 public class Tablero {
@@ -85,6 +89,7 @@ public class Tablero {
                             Scanner sc = new Scanner(System.in);
                             System.out.print("Introduce un numero de columna: ");
                             col = Integer.parseInt(sc.nextLine());
+                            System.out.print("Introduce un numero de fila: ");
                             fila = Integer.parseInt(sc.nextLine());
 
                             if ((fila > 2 || col > 2) || (fila < 0 || col < 0)) {
@@ -122,19 +127,19 @@ public class Tablero {
 
                 if (empate) {
                     System.out.println("Ha sido empate!");
-                    jugador1.setPartifasJugadas();
-                    jugador2.setPartifasJugadas();
+                    jugador1.setPartidasJugadas();
+                    jugador2.setPartidasJugadas();
                 } else {
                     if (c % 2 == 0) {
                         jugador2.setPartidasGanadas();
-                        jugador1.setPartifasJugadas();
-                        jugador2.setPartifasJugadas();
+                        jugador1.setPartidasJugadas();
+                        jugador2.setPartidasJugadas();
                         System.out.println("Ganador! " + "\n" + jugador2.toString());
                     } else {
-                        System.out.println("Ganador " + "\n" + jugador1.toString());
                         jugador1.setPartidasGanadas();
-                        jugador1.setPartifasJugadas();
-                        jugador2.setPartifasJugadas();
+                        jugador1.setPartidasJugadas();
+                        jugador2.setPartidasJugadas();
+                        System.out.println("Ganador! " + "\n" + jugador1.toString());
                     }
                 }
                 do {
