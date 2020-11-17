@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="598ea5e2-b211-44ba-815c-96f42583e67e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tres-en-Raya-master/Jugador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tres-en-Raya-master/Tablero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tres-en-Raya-master/TresEnRaya.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TresEnRaya/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TresEnRaya/Jugador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TresEnRaya/Tablero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TresEnRaya/Tablero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TresEnRaya/TresEnRaya.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TresEnRaya/TresEnRaya.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tablero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TresEnRaya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TresEnRaya.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,13 +53,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="TresEnRaya" type="Application" factoryName="Application">
@@ -42,7 +71,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -64,6 +105,7 @@
       <workItem from="1586689527543" duration="6000" />
       <workItem from="1586720358749" duration="1506000" />
       <workItem from="1588271750727" duration="90000" />
+      <workItem from="1605612724859" duration="201000" />
     </task>
     <task id="LOCAL-00001" summary="añadido excepciones y &quot;apañado&quot; lo de las puntaciones">
       <created>1586721838811</created>
@@ -76,68 +118,43 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="añadido excepciones y &quot;apañado&quot; lo de las puntaciones" />
     <option name="LAST_COMMIT_MESSAGE" value="añadido excepciones y &quot;apañado&quot; lo de las puntaciones" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1585943842959">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605612928370">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585943842959" />
-    <state x="485" y="71" key="#TresEnRaya" timestamp="1586600358929">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605612928370" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605612928370">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="485" y="71" key="#TresEnRaya/0.0.1536.824@0.0.1536.824" timestamp="1586600358929" />
-    <state x="365" y="71" key="#Unnamed" timestamp="1586600054470">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605612928370" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605612928370">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="365" y="71" key="#Unnamed/0.0.1536.824@0.0.1536.824" timestamp="1586600054470" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586600392594">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605612928370" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605612928370">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586600392594" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1586635739042">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605612928370" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1605612926127">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586635739042" />
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586600391175">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1586600391175" />
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1586721837700">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586721837700" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586600186554">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586600186554" />
-    <state width="1493" height="180" key="GridCell.Tab.0.bottom" timestamp="1586721794440">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586721794440" />
-    <state width="1493" height="180" key="GridCell.Tab.0.center" timestamp="1586721794440">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586721794440" />
-    <state width="1493" height="180" key="GridCell.Tab.0.left" timestamp="1586721794435">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586721794435" />
-    <state width="1493" height="180" key="GridCell.Tab.0.right" timestamp="1586721794440">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586721794440" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586689529920">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586689529920" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1586600110294">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586600110294" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605612926127" />
   </component>
 </project>

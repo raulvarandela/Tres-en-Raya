@@ -1,5 +1,5 @@
 /**
- @author : dsteve
+ @author : Raúl Varandela
  Descripción: clase que contiene los atributos de jugador
  */
 
